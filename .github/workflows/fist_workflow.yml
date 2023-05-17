@@ -8,14 +8,6 @@ jobs:
   first_job:
     runs-on: ubuntu-latest
     steps:
-    - name: hello world
-      run: echo "hello world"
-    
-    - name: Currently director
-      run: pwd
-    
-    - name: Currently director content
-      run: ls -a
-    
-    - name: Finish
-      run: echo "googbye world"
+    - name: build
+      run: npm run build
+
