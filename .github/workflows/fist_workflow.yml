@@ -10,3 +10,12 @@ jobs:
     steps:
     - name: hello world
       run: echo "hello world"
+    
+    - name: Currently director
+      run: pwd
+    
+    - name: Currently director content
+      run: ls -a
+    
+    - name: Finish
+      run: echo "googbye world"
